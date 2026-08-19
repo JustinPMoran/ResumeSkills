@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "resume-skills",
+  "version": "1.0.0",
+  "description": "22 skills for resume optimization, ATS compatibility, job description analysis, cover letters, LinkedIn, interview prep, and salary negotiation.",
+  "author": {
+    "name": "Resume Skills Contributors"
+  },
+  "homepage": "https://github.com/JustinPMoran/ResumeSkills",
+  "repository": "https://github.com/JustinPMoran/ResumeSkills",
+  "license": "MIT",
+  "keywords": [
+    "resume",
+    "cv",
+    "ats",
+    "job-search",
+    "cover-letter",
+    "linkedin",
+    "interview-prep",
+    "salary-negotiation",
+    "career"
+  ]
+}

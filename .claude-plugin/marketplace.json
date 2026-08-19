@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "resume-skills-marketplace",
+  "owner": {
+    "name": "Justin Moran",
+    "url": "https://github.com/JustinPMoran"
+  },
+  "metadata": {
+    "description": "Marketplace hosting the Resume Skills plugin — resume, ATS, job search, interview, and negotiation skills for Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "resume-skills",
+      "source": "./",
+      "description": "22 skills for resume optimization, ATS compatibility, job description analysis, cover letters, LinkedIn, interview prep, and salary negotiation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Resume Skills Contributors"
+      },
+      "homepage": "https://github.com/JustinPMoran/ResumeSkills",
+      "repository": "https://github.com/JustinPMoran/ResumeSkills",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "resume",
+        "cv",
+        "ats",
+        "job-search",
+        "cover-letter",
+        "linkedin",
+        "interview-prep",
+        "salary-negotiation",
+        "career"
+      ]
+    }
+  ]
+}

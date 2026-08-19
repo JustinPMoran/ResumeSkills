@@ -30,13 +30,35 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 | [resume-version-manager](/skills/resume-version-manager) | Track different resume versions, maintain master resume, manage tailored versions |
 | [creative-portfolio-resume](/skills/creative-portfolio-resume) | Balance visual design with ATS compatibility for creative roles |
 | [resume-section-builder](/skills/resume-section-builder) | Create targeted sections optimized for different experience levels and roles |
+| [cold-email-writer](/skills/cold-email-writer) | Write personalized cold outreach emails to hiring managers and founders |
+| [application-form-filler](/skills/application-form-filler) | Fill out job application form fields with tailored, context-aware answers |
 
 ## Installation
 
-### Option 1: CLI Install (Recommended)
+### Option 1: Claude Code Plugin (Recommended for Claude Code / Cowork)
+
+This repo doubles as a Claude Code plugin marketplace. Add it once, then install the plugin:
 
 ```bash
-# Install all 20 skills globally (works across all projects)
+# In Claude Code
+/plugin marketplace add JustinPMoran/ResumeSkills
+/plugin install resume-skills@resume-skills-marketplace
+```
+
+All 22 skills are auto-discovered from the `skills/` directory — no per-skill setup needed.
+
+```bash
+# Update to the latest version later
+/plugin marketplace update resume-skills-marketplace
+
+# Remove
+/plugin uninstall resume-skills@resume-skills-marketplace
+```
+
+### Option 2: CLI Install
+
+```bash
+# Install all 22 skills globally (works across all projects)
 npx skills add Paramchoudhary/ResumeSkills -g -y
 
 # Install to current project only
@@ -49,7 +71,7 @@ npx skills list
 npx skills list --global
 ```
 
-### Option 2: Manual Install
+### Option 3: Manual Install
 
 ```bash
 # Clone and copy to skills folder
@@ -58,7 +80,7 @@ mkdir -p ~/.cursor/skills
 cp -r ResumeSkills/skills/* ~/.cursor/skills/
 ```
 
-### Option 3: Direct Download
+### Option 4: Direct Download
 
 Download individual skill files from the `/skills` directory and add them to your AI agent's skills folder.
 
